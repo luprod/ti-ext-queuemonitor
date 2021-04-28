@@ -1,0 +1,13 @@
+{
+  "code": "BreakSecurity.queuemonitor",
+  "name": "Queue Monitor",
+  "description": "Monitor queue process on shared web hosting where you cannot install a governor.",
+  "version": "v0.0.1",
+  "author": "BreakSecurity",
+  "icon": {
+    "class": "fa fa-server",
+    "backgroundColor": "#ffcc00",
+    "color": "#cc0000"
+  },
+  "homepage": ""
+}
