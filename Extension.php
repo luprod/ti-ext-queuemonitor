@@ -1,10 +1,15 @@
 <?php
 
-namespace Luca\QueueMonitor;
+namespace LuProd\QueueMonitor;
 
-class Extension extends \System\Classes\BaseExtension
+use System\Classes\BaseExtension;
+
+class Extension extends BaseExtension
 {
 
+    /**
+     * @param string $schedule
+     */
     public function registerSchedule($schedule)
     {
         $schedule->command('cache:clear')

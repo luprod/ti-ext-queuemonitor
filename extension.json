@@ -1,5 +1,5 @@
 {
-  "code": "BreakSecurity.queuemonitor",
+  "code": "LuProd.queuemonitor",
   "name": "Queue Monitor",
   "description": "Monitor queue process on shared web hosting where you cannot install a governor/supervisor.",
   "version": "v1.0.0",
